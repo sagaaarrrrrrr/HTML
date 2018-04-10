@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <label for="username">First Name</label>
+      <input id="username" type="text" name="Name" placeholder="name" required>
+      <label for="Last_name">Last Name</label>
+      <input id="Last_name" type="text" name="SUR" placeholder="last name" required>
+
+
+    </form>
+    <div>
+      <label for="male">Male:</label>
+      <input id="male" type="radio" name="GENDER" value="XX">
+      <label for="femal">Female:</label>
+      <input id="femal" type="radio" name="GENDER" value="XY">
+      <label for="other">Other:</label>
+      <input id="other" type="radio" name="GENDER" value="YY">
+
+    </div>
+
+
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="xyz@gmail.com" required>
+    <label for="password">Password:</label>
+    <input id="email" type="password" placeholder="*******" required pattern=".{8,12}" required title="8 to 12 characters">
+    
+
+    <div>
+      <label>
+        Birthday:
+        <select>
+          <option>Month</option>
+          <option></option>
+          <option></option>
+        </select>
+        <select>
+          <option>Day</option>
+          <option></option>
+          <option></option>
+        </select>
+        <select>
+          <option>Year</option>
+          <option></option>
+          <option></option>
+        </select>
+
+      </label>
+
+    </div>
+
+
+
+
+    <div>
+
+          <label for="condition">I agree to the terms and conditions</label>
+          <input id="condition" type="checkbox" required>
+
+    </div>
+
+
+  <button>submit</button>
+  </body>
+</html>
